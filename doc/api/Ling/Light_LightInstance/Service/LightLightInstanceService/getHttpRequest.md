@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [LightLightInstanceService::getHttpRequest](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/getHttpRequest.md)() : Ling\Light\Http\HttpRequestInterface
+public [LightLightInstanceService::getHttpRequest](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/getHttpRequest.md)() : [HttpRequestInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpRequestInterface.md)
 
 
 
@@ -35,7 +35,7 @@ This method has no parameters.
 Return values
 ================
 
-Returns Ling\Light\Http\HttpRequestInterface.
+Returns [HttpRequestInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpRequestInterface.md).
 
 
 

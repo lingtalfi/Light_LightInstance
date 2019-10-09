@@ -22,19 +22,19 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">LightLightInstanceService</span> implements LightInitializerInterface {
+class <span class="pl-k">LightLightInstanceService</span> implements [LightInitializerInterface](https://github.com/lingtalfi/Light_Initializer/blob/master/doc/api/Ling/Light_Initializer/Initializer/LightInitializerInterface.md) {
 
 - Properties
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [$container](#property-container) ;
-    - protected Ling\Light\Core\Light [$light](#property-light) ;
-    - protected Ling\Light\Http\HttpRequestInterface [$httpRequest](#property-httpRequest) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [$container](#property-container) ;
+    - protected [Ling\Light\Core\Light](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md) [$light](#property-light) ;
+    - protected [Ling\Light\Http\HttpRequestInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpRequestInterface.md) [$httpRequest](#property-httpRequest) ;
 
 - Methods
     - public [__construct](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/__construct.md)() : void
-    - public [initialize](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/initialize.md)(Ling\Light\Core\Light $light, Ling\Light\Http\HttpRequestInterface $httpRequest) : mixed
-    - public [getLight](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/getLight.md)() : Ling\Light\Core\Light
-    - public [getHttpRequest](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/getHttpRequest.md)() : Ling\Light\Http\HttpRequestInterface
-    - public [setContainer](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/setContainer.md)(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+    - public [initialize](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/initialize.md)([Ling\Light\Core\Light](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md) $light, [Ling\Light\Http\HttpRequestInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpRequestInterface.md) $httpRequest) : mixed
+    - public [getLight](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/getLight.md)() : [Light](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md)
+    - public [getHttpRequest](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/getHttpRequest.md)() : [HttpRequestInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpRequestInterface.md)
+    - public [setContainer](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
 
 }
 

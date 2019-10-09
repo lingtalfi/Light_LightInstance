@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [LightLightInstanceService::getLight](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/getLight.md)() : Ling\Light\Core\Light
+public [LightLightInstanceService::getLight](https://github.com/lingtalfi/Light_LightInstance/blob/master/doc/api/Ling/Light_LightInstance/Service/LightLightInstanceService/getLight.md)() : [Light](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md)
 
 
 
@@ -35,7 +35,7 @@ This method has no parameters.
 Return values
 ================
 
-Returns Ling\Light\Core\Light.
+Returns [Light](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md).
 
 
 
