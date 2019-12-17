@@ -66,18 +66,20 @@ $events.methods_collection:
     -
         method: registerListener
         args:
-            events: Light.Light.initialize_1
+            events: Light.initialize_1
             listener:
                 instance: @service(light_instance)
                 callable_method: initialize
-
-
 ```
 
 
 
 History Log
 =============
+
+- 1.2.1 -- 2019-12-17
+
+    - fix functional typo in service configuration
 
 - 1.2.0 -- 2019-12-17
 
