@@ -62,11 +62,14 @@ light_instance:
 # --------------------------------------
 # hooks
 # --------------------------------------
-$initializer.methods_collection:
+$events.methods_collection:
     -
-        method: registerInitializer
+        method: registerListener
         args:
-            initializer: @service(light_instance)
+            events: Light.Light.initialize_1
+            listener:
+                instance: @service(light_instance)
+                callable_method: initialize
 
 
 ```
@@ -75,6 +78,10 @@ $initializer.methods_collection:
 
 History Log
 =============
+
+- 1.2.0 -- 2019-12-17
+
+    - update plugin to accommodate Light 0.50 new initialization system
 
 - 1.1.0 -- 2019-12-16
 
