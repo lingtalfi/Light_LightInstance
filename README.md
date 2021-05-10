@@ -71,7 +71,7 @@ $events.methods_collection:
     -
         method: registerListener
         args:
-            events: Light.initialize_1
+            events: Ling.Light.initialize_1
             listener:
                 instance: @service(light_instance)
                 callable_method: initialize
@@ -81,6 +81,10 @@ $events.methods_collection:
 
 History Log
 =============
+
+- 1.2.5 -- 2021-05-10
+
+    - Fix assets missing.
 
 - 1.2.4 -- 2021-03-05
 
