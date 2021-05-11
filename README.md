@@ -82,6 +82,10 @@ $events.methods_collection:
 History Log
 =============
 
+- 1.2.6 -- 2021-05-11
+
+    - Update deps (by CommitWizard).
+
 - 1.2.5 -- 2021-05-10
 
     - Fix assets missing.
